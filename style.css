@@ -18,6 +18,7 @@ ul li {
   font-size: 20px;
   transition: 0.2s;
   font-weight: bold;
+  touch-action: auto;
 
   /* make list items unselectable */
   -webkit-user-select: none;
@@ -92,6 +93,7 @@ input {
   padding: 10px;
   float: left;
   font-size: 16px;
+  touch-action: auto;
 }
 
 /* style the add button */
